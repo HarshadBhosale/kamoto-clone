@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Elizabeth from "./elizabeth";
+import Generative from "./generative";
+import MarketPlace from "./marketplace";
+import Navbar from "./navbar";
+import styles from "./styles.css";
+import SunnyBar from "./sunny-bar";
+import SunnyLeoneAI from "./sunny-leone-ai";
+import TailorMadeAI from "./tailor-made-ai";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-full">
+      <Navbar />
+      <SunnyBar />
+      <Elizabeth />
+      <Generative />
+      <MarketPlace />
+      <SunnyLeoneAI />
+      <TailorMadeAI />
     </div>
   );
 }
-
-export default App;
