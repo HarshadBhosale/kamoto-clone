@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kamoto-clone/static/css/main.efef5078.css",
+    "main.js": "/kamoto-clone/static/js/main.55374c10.js",
+    "index.html": "/kamoto-clone/index.html",
+    "main.efef5078.css.map": "/kamoto-clone/static/css/main.efef5078.css.map",
+    "main.55374c10.js.map": "/kamoto-clone/static/js/main.55374c10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efef5078.css",
+    "static/js/main.55374c10.js"
+  ]
+}
